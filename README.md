@@ -30,7 +30,7 @@ Implement JP Morgan Chase’s Perspective open source code in preparation for da
 
 <h2 id="installation" >Installation</h2>
 
-Please ensure you are using <b> python2.7. </b>
+Please ensure you are using <b> python3+. </b>
 
 Similar to Task 1, start the data feed server by running the python server
 
