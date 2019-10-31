@@ -39,7 +39,7 @@ Implement JP Morgan Chase’s Perspective open source code in preparation for da
 <p>Make sure your terminal / command line is in the repository first before doing any of this.</p>
 <p>If you are using Windows, make sure to run your terminal/command prompt as administrator.</p>
 
-<code> python datafeed/server.py </code>
+<code> python datafeed/server3.py </code>
 
 If you encounter an issue with `datautil.parser`, run this command: 
 
