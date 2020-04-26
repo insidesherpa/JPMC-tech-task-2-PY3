@@ -1,0 +1,57 @@
+From b182ae1de7dfbce30dad6d367b1603e8788c7e46 Mon Sep 17 00:00:00 2001
+From: Sarthakkathuria <sarthakkathuria2001@gmail.com>
+Date: Mon, 27 Apr 2020 01:08:26 +0530
+Subject: [PATCH] .
+
+---
+ src/Graph.tsx | 15 ++++++++++-----
+ 1 file changed, 10 insertions(+), 5 deletions(-)
+
+diff --git a/src/Graph.tsx b/src/Graph.tsx
+index ec1430e..6a881e4 100644
+--- a/src/Graph.tsx
++++ b/src/Graph.tsx
+@@ -1,5 +1,5 @@
+ import React, { Component } from 'react';
+-import { Table } from '@jpmorganchase/perspective';
++import { Table } from '@finos/perspective';
+ import { ServerRespond } from './DataStreamer';
+ import './Graph.css';
+ 
+@@ -14,8 +14,8 @@ interface IProps {
+  * Perspective library adds load to HTMLElement prototype.
+  * This interface acts as a wrapper for Typescript compiler.
+  */
+-interface PerspectiveViewerElement {
+-  load: (table: Table) => void,
++interface PerspectiveViewerElement extends HTMLElement {
++  load: (table: Table) => void, 
+ }
+ 
+ /**
+@@ -32,7 +32,7 @@ class Graph extends Component<IProps, {}> {
+ 
+   componentDidMount() {
+     // Get element to attach the table from the DOM.
+-    const elem: PerspectiveViewerElement = document.getElementsByTagName('perspective-viewer')[0] as unknown as PerspectiveViewerElement;
++    const ele = document.getElementsByTagName('perspective-viewer')[0] as unknown as PerspectiveViewerElement;
+ 
+     const schema = {
+       stock: 'string',
+@@ -46,7 +46,12 @@ class Graph extends Component<IProps, {}> {
+     }
+     if (this.table) {
+       // Load the `table` in the `<perspective-viewer>` DOM reference.
+-
++      elem.setAttribute('view', 'y_line');
++      elem.setAttribute('column-pivots','["stock"]');
++      elem.setAttribute('row-pivots','["timestamp"]');
++      elem.setAttribute('columns','["top_ask_price"]');
++      elem.setAttribute('aggregates' , '{"stock" : "distinct count",
++        "top_ask_price":"avg" ,"top_bid_price": "avg" , "timestamp" : "distinct count"}');
+       // Add more Perspective configurations here.
+       elem.load(this.table);
+     }
+-- 
+2.16.2.windows.1
+
