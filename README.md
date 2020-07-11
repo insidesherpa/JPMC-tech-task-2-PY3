@@ -1,3 +1,4 @@
+[![Run on Repl.it](https://repl.it/badge/github/insidesherpa/JPMC-tech-task-2-PY3)](https://repl.it/github/insidesherpa/JPMC-tech-task-2-PY3)
 <p align="center">
 <a href="https://www.insidesherpa.com/virtual-internships/prototype/R5iK7HMxJGBgaSbvk/Technology%20Virtual%20Experience" target="_blank">
 <img src="https://insidesherpa-assets.s3-ap-southeast-2.amazonaws.com/icons/jpmorgan/github+repo+images/jpmc+github+img.png">
