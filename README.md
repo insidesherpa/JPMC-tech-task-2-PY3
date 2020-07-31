@@ -61,7 +61,9 @@ Open http://localhost:3000 to view the app in the browser. The page will reload 
 <h2>Known Issues</h2>
 Some users seem to be having trouble with the unzipped version of the node_modules back up for windows. 
 This is the alternative unzipped version:
-https://drive.google.com/drive/folders/1wzIlt-OeiK6nYEHidsOGlpJ_KmeoPVXz?usp=sharing
+https://drive.google.com/drive/folders/1wzIlt-OeiK6nYEHidsOGlpJ_KmeoPVXz
+
+Note: You may need to (hard) refresh the link to the public gdrive to see all of the files/folders e.g. @jpmorganchase/perspective as it takes gdrive a bit to load them for you.
 
 
 <h2>How to fix the code to meet the objectives</h2>
