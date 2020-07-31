@@ -58,6 +58,11 @@ The recommended version are node v11.0.0 and npm v6.4.1
 Open http://localhost:3000 to view the app in the browser. The page will reload if you make edits.
 
 
+<h2>Known Issues</h2>
+Some users seem to be having trouble with the unzipped version of the node_modules back up for windows. 
+This is the alternative unzipped version:
+https://drive.google.com/drive/folders/1wzIlt-OeiK6nYEHidsOGlpJ_KmeoPVXz?usp=sharing
+
 <h2>How to fix the code to meet the objectives</h2>
 <p>To make the changes necessary to complete the objectives of this task, <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/making_changes_m2_v2.pdf">follow this guide</a>.</p>
 
