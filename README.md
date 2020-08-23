@@ -71,3 +71,4 @@ Note: You may need to (hard) refresh the link to the public gdrive to see all of
 
 <h2>How to submit your work</h2>
 <p>A patch file is what is required from you to submit. To create a patch file, <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/create_patch_file_v3a.pdf">follow this guide</a>. Then submit the patch file in the <a href="https://www.insidesherpa.com/modules/R5iK7HMxJGBgaSbvk/88AisH7iuw3L5N5ig">JPM Module 2 Page</a>.</p>
+[![Run on Repl.it](https://repl.it/badge/github/insidesherpa/JPMC-tech-task-2-PY3)](https://repl.it/github/insidesherpa/JPMC-tech-task-2-PY3)
