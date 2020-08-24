@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@finos/perspective": "^0.5.2",
     "@jpmorganchase/perspective": "^0.2.12",
     "@jpmorganchase/perspective-viewer": "^0.2.12",
     "@jpmorganchase/perspective-viewer-highcharts": "^0.2.12",
